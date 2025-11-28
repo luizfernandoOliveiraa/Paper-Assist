@@ -30,6 +30,15 @@ Antes de começar, você precisa ter o **uv** instalado. Ele substitui o `pip` e
 ```bash
 curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
 ```
+**Windows (PowerShell):**
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+ou
+
+winget install --id=astral-sh.uv  -e
+```
+
 ### Chave de API
 Você precisará de uma API Key do Google Gemini. Obtenha gratuitamente no Google AI Studio.
 
